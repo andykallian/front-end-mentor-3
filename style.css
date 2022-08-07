@@ -131,13 +131,19 @@ body{
 
     body{
         display: block;
-        padding: 20px;
+        padding: 35px 20px;
     }
 
     .container{
         flex-direction: column;
         max-width: 100%;
         min-height: 95vh;
+    }
+
+    .img{
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 0px;
+
     }
 
     .button{
